@@ -140,3 +140,11 @@ Layout:
 - `src/client/`: React UI
 - `test/`: Vitest
 - `data/app.db`: local SQLite database (git-ignored)
+
+## Contributing
+
+Contributions are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) for setup, checks and the rules the code follows. Report security problems privately, as described in [SECURITY.md](SECURITY.md).
+
+## License
+
+[MIT](LICENSE)

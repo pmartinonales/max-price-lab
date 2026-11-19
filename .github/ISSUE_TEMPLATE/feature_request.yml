@@ -1,0 +1,21 @@
+name: Feature request
+description: Suggest a change or a new feature
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What you'd like to happen
+    validations:
+      required: true
+  - type: textarea
+    id: docs
+    attributes:
+      label: Meta or 360dialog docs
+      description: Links to the docs that describe the behaviour, if any.

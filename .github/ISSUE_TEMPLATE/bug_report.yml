@@ -1,0 +1,45 @@
+name: Bug report
+description: Something doesn't work as expected
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Don't paste API keys, access tokens or real phone numbers. Mask them first.
+  - type: dropdown
+    id: provider
+    attributes:
+      label: Provider
+      options:
+        - 360dialog
+        - Meta Cloud API
+        - Not related to a provider
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to Templates
+        2. Click "Create arm B"
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened
+      description: Include the API error body the app shows, if any.
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Node.js version and OS
+      placeholder: Node 22, macOS 15

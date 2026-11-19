@@ -4,6 +4,15 @@
   "private": true,
   "type": "module",
   "description": "Demo app for Meta's max price on WhatsApp marketing messages, via 360dialog",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmartinonales/max-price-lab.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pmartinonales/max-price-lab/issues"
+  },
+  "homepage": "https://github.com/pmartinonales/max-price-lab#readme",
   "scripts": {
     "dev": "tsx watch src/server/index.ts",
     "build": "vite build",
