@@ -8,7 +8,7 @@ Demo only: no auth, single user, no currency conversion.
 
 ## Setup
 
-Needs Node.js 20+.
+Needs Node.js 22+.
 
 ```bash
 npm install

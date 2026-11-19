@@ -10,7 +10,7 @@ Thanks for helping. Bug reports, fixes, rate cards in other currencies and suppo
 
 ## Setup
 
-Needs Node.js 20 or newer.
+Needs Node.js 22 or newer.
 
 ```bash
 npm install
